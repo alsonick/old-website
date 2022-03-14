@@ -1,0 +1,10 @@
+.wrapper p {
+  font-size: 1rem;
+  color: #747474;
+}
+
+.links__wrapper {
+  border-bottom: 1px #eee solid;
+  padding-bottom: 15px;
+  margin-top: 10px;
+}

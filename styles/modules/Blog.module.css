@@ -1,0 +1,24 @@
+.article__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  border-top: 1px solid #eee;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.article__container h2 {
+  margin-bottom: 15px;
+}
+
+.article__container p {
+  margin-bottom: 15px;
+}
+
+.article__container ol {
+  margin-left: 2rem;
+}
+
+.article__container li {
+  margin-bottom: 35px;
+}

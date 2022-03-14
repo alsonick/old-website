@@ -1,0 +1,11 @@
+.blogs__not__found {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: '100%';
+  display: 'flex';
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
