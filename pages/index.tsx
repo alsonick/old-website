@@ -34,13 +34,13 @@ const Home: NextPage = () => {
           marginTop: '20rem',
         }}
       >
-        <h1>👋 Hey I'm Nicholas.</h1>
+        <h1>👋 Hey I&apos;m Nicholas.</h1>
         <p>{new Date().getFullYear() - 2003} y/o software engineer</p>
         <div className={styles.links__wrapper}>
           <Link href={`${BLOGS_URL_PATH}`}>
             <a style={{ marginRight: `${LINK_MARGIN_GAP}px` }}>Blogs &#8594;</a>
           </Link>
-          <Link href="https://github.com/heynickn">
+          <Link href="https://github.com/alsonick">
             <a style={{ marginRight: `${LINK_MARGIN_GAP}px` }} target="_blank">
               GitHub &#8594;
             </a>

@@ -51,7 +51,6 @@ const BlogsPage: NextPage<BlogsPropTypes> = (props) => {
         >
           Blogs
         </h1>
-
         <SpotifyActivity setActive={setPresenceActive} />
         {props.allBlogsData ? (
           <Blogs allBlogsData={props.allBlogsData} />

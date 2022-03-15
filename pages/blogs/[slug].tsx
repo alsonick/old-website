@@ -28,7 +28,6 @@ export const getStaticPaths: GetStaticPaths = () => {
 };
 
 const BlogPage: NextPage<BlogsResponseType> = (props) => {
-  console.log(props);
   return <Blog blogsData={props.blogsData} />;
 };
 
