@@ -2,6 +2,7 @@ import React from 'react';
 
 // Next
 import type { NextPage } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 
 // Components
@@ -32,26 +33,10 @@ const Home: NextPage = () => {
       <Wrapper
         style={{
           marginTop: '20rem',
+          alignItems: 'center',
         }}
       >
-        <h1>👋 Hey I&apos;m Nicholas.</h1>
-        <p>{new Date().getFullYear() - 2003} y/o software engineer</p>
-        <div className={styles.links__wrapper}>
-          <Link href={`${BLOGS_URL_PATH}`}>
-            <a style={{ marginRight: `${LINK_MARGIN_GAP}px` }}>Blogs &#8594;</a>
-          </Link>
-          <Link href="https://github.com/alsonick">
-            <a style={{ marginRight: `${LINK_MARGIN_GAP}px` }} target="_blank">
-              GitHub &#8594;
-            </a>
-          </Link>
-          <Link href="https://twitter.com/heynickn">
-            <a style={{ marginRight: `${LINK_MARGIN_GAP}px` }} target="_blank">
-              Twitter &#8594;
-            </a>
-          </Link>
-        </div>
-        <SpotifyActivity setActive={setPresenceActive} />
+        Working on new site!
       </Wrapper>
       <Footer />
     </Layout>
